@@ -1,3 +1,13 @@
 #navbar {
+  position: relative;
+  left: 75%;
   display: flex;
+}
+
+#navbar > a {
+  margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
 }
