@@ -1111,3 +1111,20 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/* 
+My adjustments
+*/
+
+.portfolio-overview {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+}
+
+.portfolio-link-container {
+  display: block;
+  position: relative;
+}
