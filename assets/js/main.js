@@ -278,7 +278,10 @@
   let allBlogs = select(".portfolio-item", true);
   allBlogs.forEach((blogDiv) => {
     blogDiv.addEventListener("click", (e) => {
-      location.href = `./blog-${blogDiv.getAttribute("blog")}.html`;
+      var blogId = blogDiv.getAttribute("blog");
+      if (blogId) {
+        location.href = `./blog-${blogId}.html`;
+      }
     });
   });
 })();
