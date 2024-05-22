@@ -1160,3 +1160,13 @@ My adjustments
 #pro-languages i {
   margin-right: 25px;
 }
+
+.img-container {
+  width: 100%;
+}
+
+.img-container img {
+  max-height: 400px;
+  max-width: 100%;
+  object-fit: contain;
+}
