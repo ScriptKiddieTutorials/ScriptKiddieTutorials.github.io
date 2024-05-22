@@ -1152,3 +1152,11 @@ My adjustments
   display: block;
   position: relative;
 }
+
+#pro-languages {
+  display: flex;
+}
+
+#pro-languages i {
+  margin-right: 25px;
+}
