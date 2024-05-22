@@ -1161,12 +1161,12 @@ My adjustments
   margin-right: 25px;
 }
 
-.img-container {
+.custom-img-container {
   width: 100%;
 }
 
-.img-container img {
-  max-height: 400px;
+.custom-img-container img {
+  max-height: 350px;
   max-width: 100%;
   object-fit: contain;
 }
